@@ -33,7 +33,7 @@ Computing the clique of a graph of order 854 with density 0.33 (THRESHOLD_ORDER=
     user    0m2.560s
     sys     0m0.000s
 
-Note that setting THRESHOLD_ORDER>=200 takes more than an hour.
+Note that setting THRESHOLD_ORDER>=200 drastically increases the time of computation.
 
 
 Computing the clique of a graph of order 3978 and density 0.251 (THRESHOLD_ORDER=100, level=10)
