@@ -13,7 +13,7 @@ gtc accepts a file whose lines are graphs in the graph6 string representation fo
 **Examples**
 
 
-Computing the clique of a graph of order 592 and density 0.166 with a lower threshold (THRESHOLD_ORDER=150, level=4)
+Computing the clique of a graph of order 592 and density 0.166 (THRESHOLD_ORDER=150, level=4)
 
     $ time ./gtc example592 
     20
