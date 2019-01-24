@@ -5,6 +5,8 @@ gtc (get that clique) is a C++ program used for computing the clique number of g
 
 A variant of this program was crucial for the publication of the papers entitled  ["There is no (75, 32, 10, 16) strongly regular graph"](https://arxiv.org/abs/1509.05933) and ["There is no (95, 40, 12, 20) strongly regular graph"](https://arxiv.org/abs/1603.02032).
 
+If you find this program useful, you might consider citing [this](https://www.sciencedirect.com/science/article/abs/pii/S0024379518303458) article, describing the algorithm behind gtc.
+
 
 **Usage**
 
