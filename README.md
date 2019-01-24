@@ -43,4 +43,4 @@ Computing the clique of a graph of order 3978 and density 0.251 (THRESHOLD_ORDER
 
 	real	3m20.644s
 	user	3m20.580s
-	sys		0m0.012s
+	sys	0m0.012s
