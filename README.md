@@ -8,7 +8,7 @@ A variant of this program was crucial for the publication of the papers [There i
 
 **Usage**
 
-gtc accepts a file whose lines are graphs in the graph6 string representation form. Its output is a sequence of lines, each line containing the clique number of the coresponding graph in the input. It is trivial to modify gtc to print the respective clique as well.
+gtc accepts a file whose lines are graphs in the graph6 string representation form. Its output is a sequence of lines, each line containing the clique number of the coresponding graph in the input. It is trivial to modify gtc to print the respective vertices of the clique as well.
 
 **Examples**
 
