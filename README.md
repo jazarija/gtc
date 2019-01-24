@@ -3,7 +3,7 @@
 
 gtc (get that clique) is a C++ program used for computing the clique number of graphs exibithing a certain degree of symmetry. Specifically, graphs that have a non-trivial automorphism group and, more generally, graphs having vertices whose neighborhoods induce isomorphic graphs. Gtc relies on [nauty](http://users.cecs.anu.edu.au/~bdm/nauty/), [bliss](http://www.tcs.hut.fi/Software/bliss/) as well as the clique computing program [mcqd](https://gitlab.com/janezkonc/mcqd).
 
-A variant of this program was crucial for the publication of the papere  [There is no (75, 32, 10, 16) strongly regular graph](https://arxiv.org/abs/1509.05933) and [There is no (95, 40, 12, 20) strongly regular graph](https://arxiv.org/abs/1603.02032)
+A variant of this program was crucial for the publication of the papers [There is no (75, 32, 10, 16) strongly regular graph](https://arxiv.org/abs/1509.05933) and [There is no (95, 40, 12, 20) strongly regular graph](https://arxiv.org/abs/1603.02032)
 
 
 **Usage**
