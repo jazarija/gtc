@@ -8,8 +8,11 @@
 
 #define LEVEL 4 /* Hard stop on the branching process that computes cliques recursively. Experiment with a lower level if the graph is sparse */
 #define THRESHOLD_ORDER 150 /* Lower limit after which we simply invoke the standard clique solving algorithm */
-#define EXPECTED_CLIQUE 20 /* Use this if you know that the underying graph is supposed to have a clique of size at least >= EXPECTED_CLIQUE 
-                              NOTE. This should be always greater than LEVEL */
+/* Use this if you know that the underying graph is supposed to have a clique of size at least >= EXPECTED_CLIQUE. 
+   NOTE1. If your graph actually has a smaller clique then the computed clique number will be incorrect.
+   NOTE2. This definition should always be greater than LEVEL, for otherwise you run into an integer underflow.
+*/
+#define EXPECTED_CLIQUE 20 
 //#define VERBOSE 1 /* Uncoment definition to obtain information about the compuation of the clique */
 
 gtcSolver::gtcSolver(Graph *G) {
