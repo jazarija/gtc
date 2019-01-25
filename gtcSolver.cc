@@ -8,7 +8,7 @@
 
 #define LEVEL 10 /* Hard stop on the branching process that computes cliques recursively. Experiment with a lower level if the graph is sparse */
 #define THRESHOLD_ORDER 100 /* Lower limit after which we simply invoke the standard clique solving algorithm */
-#define EXPECTED_CLIQUE 67 /* Use this if you know that the underying graph is supposed to have a clique of size at least >= EXPECTED_CLIQUE. Note this
+#define EXPECTED_CLIQUE 1 /* Use this if you know that the underying graph is supposed to have a clique of size at least >= EXPECTED_CLIQUE. Note this
 should always be greater than LEVEL ! */
 //#define VERBOSE 1 /* Uncoment definition to obtain information about the compuation of the clique */
 
